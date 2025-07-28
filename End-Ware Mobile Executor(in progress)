@@ -1,0 +1,146 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 10 | Scripts: 2 | Modules: 0 | Tags: 1
+local CollectionService = game:GetService("CollectionService");
+local G2L = {};
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui
+G2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- Tags
+CollectionService:AddTag(G2L["ScreenGui_1"], [[main]]);
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame
+G2L["Frame_2"] = Instance.new("Frame", G2L["ScreenGui_1"]);
+G2L["Frame_2"]["Active"] = true;
+G2L["Frame_2"]["BorderSizePixel"] = 0;
+G2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(66, 66, 66);
+G2L["Frame_2"]["Size"] = UDim2.new(0, 468, 0, 284);
+G2L["Frame_2"]["Position"] = UDim2.new(0, 96, 0, 178);
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.text header
+G2L["text header_3"] = Instance.new("TextLabel", G2L["Frame_2"]);
+G2L["text header_3"]["TextWrapped"] = true;
+G2L["text header_3"]["TextStrokeTransparency"] = 0;
+G2L["text header_3"]["BorderSizePixel"] = 0;
+G2L["text header_3"]["TextSize"] = 10;
+G2L["text header_3"]["TextStrokeColor3"] = Color3.fromRGB(177, 7, 196);
+G2L["text header_3"]["TextScaled"] = true;
+G2L["text header_3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["text header_3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["text header_3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["text header_3"]["BackgroundTransparency"] = 1;
+G2L["text header_3"]["RichText"] = true;
+G2L["text header_3"]["Size"] = UDim2.new(0, 470, 0, 82);
+G2L["text header_3"]["Text"] = [[End-Ware]];
+G2L["text header_3"]["Name"] = [[text header]];
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.ClearBox
+G2L["ClearBox_4"] = Instance.new("TextButton", G2L["Frame_2"]);
+G2L["ClearBox_4"]["TextWrapped"] = true;
+G2L["ClearBox_4"]["BorderSizePixel"] = 3;
+G2L["ClearBox_4"]["TextSize"] = 11;
+G2L["ClearBox_4"]["BackgroundColor3"] = Color3.fromRGB(237, 0, 0);
+G2L["ClearBox_4"]["Size"] = UDim2.new(0, 102, 0, 42);
+G2L["ClearBox_4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ClearBox_4"]["Text"] = [[Clear Script]];
+G2L["ClearBox_4"]["Name"] = [[ClearBox]];
+G2L["ClearBox_4"]["Position"] = UDim2.new(0, 32, 0, 90);
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.ClearBox.LocalScript
+G2L["LocalScript_5"] = Instance.new("LocalScript", G2L["ClearBox_4"]);
+
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.Execute
+G2L["Execute_6"] = Instance.new("TextButton", G2L["Frame_2"]);
+G2L["Execute_6"]["BorderSizePixel"] = 0;
+G2L["Execute_6"]["TextSize"] = 14;
+G2L["Execute_6"]["BackgroundColor3"] = Color3.fromRGB(50, 164, 7);
+G2L["Execute_6"]["Size"] = UDim2.new(0, 102, 0, 40);
+G2L["Execute_6"]["Text"] = [[Execute]];
+G2L["Execute_6"]["Name"] = [[Execute]];
+G2L["Execute_6"]["Position"] = UDim2.new(0, 34, 0, 174);
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.Execute.LocalScript
+G2L["LocalScript_7"] = Instance.new("LocalScript", G2L["Execute_6"]);
+
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.Scriptbox
+G2L["Scriptbox_8"] = Instance.new("TextBox", G2L["Frame_2"]);
+G2L["Scriptbox_8"]["Name"] = [[Scriptbox]];
+G2L["Scriptbox_8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["Scriptbox_8"]["PlaceholderColor3"] = Color3.fromRGB(171, 14, 222);
+G2L["Scriptbox_8"]["BorderSizePixel"] = 5;
+G2L["Scriptbox_8"]["TextWrapped"] = true;
+G2L["Scriptbox_8"]["TextSize"] = 10;
+G2L["Scriptbox_8"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["Scriptbox_8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["Scriptbox_8"]["MultiLine"] = true;
+G2L["Scriptbox_8"]["PlaceholderText"] = [[Made By BloxyNoob]];
+G2L["Scriptbox_8"]["Size"] = UDim2.new(0, 284, 0, 180);
+G2L["Scriptbox_8"]["Position"] = UDim2.new(0, 174, 0, 94);
+G2L["Scriptbox_8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["Scriptbox_8"]["Text"] = [[]];
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.Scriptbox.UITextSizeConstraint
+G2L["UITextSizeConstraint_9"] = Instance.new("UITextSizeConstraint", G2L["Scriptbox_8"]);
+
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.UICorner
+G2L["UICorner_a"] = Instance.new("UICorner", G2L["Frame_2"]);
+
+
+
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.ClearBox.LocalScript
+local function C_5()
+	local script = G2L["LocalScript_5"];
+	local Frame = script.Parent.Parent	
+	local ScriptBox = Frame:WaitForChild("Scriptbox")	
+	
+	script.Parent.MouseButton1Click:Connect(function()	
+		ScriptBox.Text = ""	
+	end)	
+	
+end;
+task.spawn(C_5);
+-- Players.masterofskibidi781.PlayerGui.ScreenGui.Frame.Execute.LocalScript
+local function C_7()
+	local script = G2L["LocalScript_7"];
+	-- Inside Execute.LocalScript	
+	local Frame = script.Parent.Parent	
+	local ScriptBox = Frame:WaitForChild("Scriptbox")	
+	local ExecuteButton = script.Parent	
+	
+	ExecuteButton.MouseButton1Click:Connect(function()	
+	    local code = ScriptBox.Text	
+	    local success, result = pcall(function()	
+	        loadstring(code)()	
+	    end)	
+	
+	    if not success then	
+	        warn("Execution error: " .. tostring(result))	
+	    end	
+	end)	
+	
+end;
+task.spawn(C_7);
+
+return G2L["ScreenGui_1"], require;
